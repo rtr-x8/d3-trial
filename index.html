@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3-trial</title>
+
+    <!-- Papa.parse.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"
+        integrity="sha512-rKFvwjvE4liWPlFnvH4ZhRDfNZ9FOpdkD/BU5gAIA3VS3vOQrQ5BjKgbO3kxebKhHdHcNUHLqxQYSoxee9UwgA=="
+        crossorigin="anonymous"></script>
+
+    <!-- D3.js -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.2.0/dist/chart.min.js"></script>
+
+    <!-- taucharts.js -->
+    <script src="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/taucharts@2/dist/taucharts.min.css">
+
+    <!-- highcharts.js -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <h1>大正9年から平成27年の函館市の人口推移図</h1>
+        <p><a href="https://www.city.hakodate.hokkaido.jp/docs/2018061900052/"
+            target="_blank">函館市の人口【国勢調査】CSVデータ　平成27年</a>の『第1表/人口の推移』より取得したデータを、文字コードをUTF-8に変更し、和暦を西暦に変更した上で利用している。</p>
+        <div class="box">
+            <div class="graph-container">
+                <p><b><a href="https://d3js.org/" target="_blank">d3.js - graph01.js</a></b></p>
+                <div id="graph01" class="graph-container__view"></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="graph-container">
+                <p><b><a href="https://www.chartjs.org/" target="_blank">chart.js - graph02.js</a></b></p>
+                <div class="graph-container__view"><canvas id="graph02"></canvas></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="graph-container">
+                <p><b><a href="https://taucharts.com/" target="_blank">taucharts.js - graph03.js</a></b></p>
+                <div id="graph03" class="graph-container__view"></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="graph-container">
+                <p><b><a href="https://www.highcharts.com/" target="_blank">highcharts.js - graph04.js</a></b></p>
+                <div id="graph04" class="graph-container__view"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="js/util.js"></script>
+<script src="js/graph01.js"></script>
+<script src="js/graph02.js"></script>
+<script src="js/graph03.js"></script>
+<script src="js/graph04.js"></script>
+</html>
