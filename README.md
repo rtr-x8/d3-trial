@@ -15,8 +15,8 @@ d3-trial という名前にしたが、色々なグラフライブラリで実�
 
 ## 01
 
-(d3.js)[https://d3js.org/]を利用。  
-実行ファイルは(js/graph01.js)[https://github.com/rtr-x8/d3-trial/blob/main/js/graph01.js]
+[d3.js](https://d3js.org/)を利用。  
+実行ファイルは[js/graph01.js](https://github.com/rtr-x8/d3-trial/blob/main/js/graph01.js)
 
 ### 使用感
 
@@ -26,7 +26,7 @@ d3-trial という名前にしたが、色々なグラフライブラリで実�
 
 ### ライセンス
 
-(ライセンス情報)[https://github.com/d3/d3/blob/master/LICENSE]
+[ライセンス情報](https://github.com/d3/d3/blob/master/LICENSE)
 
 修正BSDライセンス
 
@@ -34,8 +34,8 @@ d3-trial という名前にしたが、色々なグラフライブラリで実�
 
 ## 02
 
-(chart.js)[https://www.chartjs.org/]  
-実行ファイルは(js/graph02.js)[https://github.com/rtr-x8/d3-trial/blob/main/js/graph02.js]
+[chart.js](https://www.chartjs.org/)  
+実行ファイルは[js/graph02.js](https://github.com/rtr-x8/d3-trial/blob/main/js/graph02.js)
 
 ### 使用感
 
@@ -43,7 +43,7 @@ d3-trial という名前にしたが、色々なグラフライブラリで実�
 
 ### ライセンス
 
-(ライセンス情報)[https://github.com/chartjs/Chart.js/blob/master/LICENSE.md]
+[ライセンス情報](https://github.com/chartjs/Chart.js/blob/master/LICENSE.md)
 
 MITライセンス。自由に利用してOK
 
@@ -51,8 +51,8 @@ MITライセンス。自由に利用してOK
 
 ## 03
 
-(taucharts.js)[https://taucharts.com/]  
-実行ファイルは(js/graph03.js)[https://github.com/rtr-x8/d3-trial/blob/main/js/graph03.js]
+[taucharts.js](https://taucharts.com/)  
+実行ファイルは[js/graph03.js](https://github.com/rtr-x8/d3-trial/blob/main/js/graph03.js)
 
 ### 使用感
 
@@ -61,7 +61,7 @@ MITライセンス。自由に利用してOK
 
 ### ライセンス
 
-(ライセンス情報)[https://github.com/TargetProcess/tauCharts/blob/master/LICENSE]
+[ライセンス情報](https://github.com/TargetProcess/tauCharts/blob/master/LICENSE)
 
 Apache License
 
